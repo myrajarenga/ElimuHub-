@@ -1,0 +1,2 @@
+# ElimuHub
+ElimuHub is an application that intends to help schools perform their daily activities in a more digital way. It intends to providing a way of schools sharing content through a digital platform and also provide a management tool for information in individual schools.
