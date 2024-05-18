@@ -1,0 +1,24 @@
+const Timer = (countDownDate) => {
+    // Get today's date and time
+    const now = new Date().getTime();
+            
+    // Find the difference between now and the count down date
+    const distance = countDownDate - now;
+
+    //segrigate each variable from the time difference
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    // proper formating of the time variables
+    const formatedDays = days === 1 ? days + " Day" : days + " Days"
+    const formattedHours = hours < 10 ? "0" + hours : hours;
+    const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
+    const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
+
+    // Return of the resultant time variables as an object.
+    return {days: formatedDays, hours: formattedHours, minutes: formattedMinutes, seconds: formattedSeconds};
+};
+
+export default Timer;
