@@ -2,7 +2,10 @@ import {useEffect, useState, useRef} from "react";
 import Timer from "../Helpers/Timer";
 
 const CommingSoon = ({TimeLine}) => {
+    // transform the TimeLine string into Time
     const countDownDate = new Date(TimeLine).getTime();
+
+    //use the Timer method to get the date, time, hours, minutes and seconds remaining in an object
     const timeLine = useRef(Timer(countDownDate));
 
     const daysRef = useRef(timeLine.current["days"]);
@@ -34,6 +37,7 @@ const CommingSoon = ({TimeLine}) => {
         },1000);
 
         return () => {
+            //clear interval
             clearInterval(intervalId);
         }
     });
