@@ -1,3 +1,8 @@
+/*
+    module containing a function that calculates time difference between now and timeLine then 
+    segrigates the time variables and returns them as an object
+*/
+
 const Timer = (countDownDate) => {
     // Get today's date and time
     const now = new Date().getTime();
