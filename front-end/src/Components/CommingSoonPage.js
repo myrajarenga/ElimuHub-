@@ -1,8 +1,52 @@
-const CommingSoon = () => {
+import {useEffect, useState, useRef} from "react";
+import Timer from "../Helpers/Timer";
+
+const CommingSoon = ({TimeLine}) => {
+    const countDownDate = new Date(TimeLine).getTime();
+    const timeLine = useRef(Timer(countDownDate));
+
+    const daysRef = useRef(timeLine.current["days"]);
+    const hoursRef = useRef(timeLine.current["hours"]);
+    const minutesRef = useRef(timeLine.current["minutes"]);
+    const secondsRef = useRef(timeLine.current["seconds"]);
+
+    const [daysRemaining, setDays] = useState(daysRef.current);
+    const [hoursRemaining, setHours] = useState(hoursRef.current);
+    const [minutesRemaining, setMinutes] = useState(minutesRef.current);
+    const [secondsRemaining, setSeconds] = useState(secondsRef.current);
+    useEffect(()=>{
+        const intervalId = setInterval(function() {
+            const newTimeLine = Timer(countDownDate);
+            const newDays = newTimeLine["days"];
+            const newHours = newTimeLine["hours"];
+            const newMinutes = newTimeLine["minutes"];
+            const newSeconds = newTimeLine["seconds"];
+
+            setDays(newDays);
+            setHours(newHours);
+            setMinutes(newMinutes);
+            setSeconds(newSeconds);
+
+            daysRef.current = newDays;
+            hoursRef.current = newHours;
+            minutesRef.current = newMinutes;
+            secondsRef.current = newSeconds;
+        },1000);
+
+        return () => {
+            clearInterval(intervalId);
+        }
+    });
+    
     return(
-        <div className="w-[100%] h-[100vh] bg-[#2C4035] flex justify-center items-center">
-            <div className="text-[56px] text-[#D2D9D2]">
-                ElimuHub Comming Soon...
+        
+        <div className="w-[100%] h-[100vh] flex flex-col justify-center items-center">
+            <img alt="launcher" src="./Images/launcher.png" className="w-[120px]"></img>
+            <div className="text-[48px] text-[#2C4035] font-light mt-[.5em]">
+                <span className="font-bold">ElimuHub</span> Comming Soon...
+            </div>
+            <div className="text-[56px] text-[#2C4035] font-bold">
+                {daysRemaining} {hoursRemaining} : {minutesRemaining} : {secondsRemaining} 
             </div>
         </div>
         
