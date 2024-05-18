@@ -45,11 +45,11 @@ const CommingSoon = ({TimeLine}) => {
     return(
         
         <div className="w-[100%] h-[100vh] flex flex-col justify-center items-center">
-            <img alt="launcher" src="./Images/launcher.png" className="w-[120px]"></img>
-            <div className="text-[48px] text-[#2C4035] font-light mt-[.5em]">
+            <img alt="launcher" src="./Images/launcher.png" className="w-[80px] lg:w-[120px]"></img>
+            <div className="text-[24px] lg:text-[48px] text-[#2C4035] font-light mt-[.5em]">
                 <span className="font-bold">ElimuHub</span> Comming Soon...
             </div>
-            <div className="text-[56px] text-[#2C4035] font-bold">
+            <div className="text[32px] font-bold lg:text-[56px] text-[#2C4035]">
                 {daysRemaining} {hoursRemaining} : {minutesRemaining} : {secondsRemaining} 
             </div>
         </div>
