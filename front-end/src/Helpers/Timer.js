@@ -17,7 +17,16 @@ const Timer = (countDownDate) => {
     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // proper formating of the time variables
-    const formatedDays = days === 1 ? days + " Day" : days + " Days"
+    var formatedDays = "";
+    if(days === 1){
+        formatedDays = days + " Day";
+    }
+    else if(days === 0){
+        formatedDays = "";
+    }
+    else{
+        formatedDays = days + " Days";
+    }
     const formattedHours = hours < 10 ? "0" + hours : hours;
     const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
     const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
