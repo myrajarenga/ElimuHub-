@@ -50,7 +50,7 @@ const CommingSoon = ({TimeLine}) => {
                 <span className="font-bold">ElimuHub</span> Comming Soon...
             </div>
             <div className="text-[32px] font-bold lg:text-[56px] text-[#2C4035]">
-                {daysRemaining} {hoursRemaining} : {minutesRemaining} : {secondsRemaining} 
+                {daysRemaining} {hoursRemaining} {minutesRemaining} {secondsRemaining} 
             </div>
         </div>
         
