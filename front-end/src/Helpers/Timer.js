@@ -21,15 +21,45 @@ const Timer = (countDownDate) => {
     if(days === 1){
         formatedDays = days + " Day";
     }
-    else if(days === 0){
+    else if(days <= 0){
         formatedDays = "";
     }
     else{
         formatedDays = days + " Days";
     }
-    const formattedHours = hours < 10 ? "0" + hours : hours;
-    const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
-    const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
+
+    var formattedHours = "";
+    if (hours < 0){
+        formattedHours = "";
+    }
+    else if(hours < 10){
+        formattedHours = "0" + hours + " : "
+    }
+    else{
+        formattedHours = hours + " : "
+    }
+    
+    var formattedMinutes = "";
+    if (minutes < 0){
+        formattedMinutes = "";
+    }
+    else if(minutes < 10){
+        formattedMinutes = "0" + minutes + " : "
+    }
+    else{
+        formattedMinutes = minutes + " : "
+    }
+
+    var formattedSeconds = "";
+    if (seconds < 0){
+        formattedSeconds = "";
+    }
+    else if(seconds < 10){
+        formattedSeconds = "0" + seconds
+    }
+    else{
+        formattedSeconds = seconds
+    }
 
     // Return of the resultant time variables as an object.
     return {days: formatedDays, hours: formattedHours, minutes: formattedMinutes, seconds: formattedSeconds};
