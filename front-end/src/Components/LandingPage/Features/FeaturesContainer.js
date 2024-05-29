@@ -36,7 +36,7 @@ const FeaturesContainer = () => {
                 text = "Lorem ipsum dolor sit amet consectetur. Nulla sollicitudin sem sem nisl proin. Ut nec enim donec lectus mi dictum. Donec gravida a ut nulla mi consectetur. Mauris suscipit fringilla ipsum vestibulum augue vel ut. Elit diam nunc nulla turpis mi. Varius lobortis nisl purus lorem ultrices nullam dapibus. Neque leo in neque odio adipiscing adipiscing ac vel ac. Aenean cursus tempor justo ipsum vulputate. Et diam mollis cum est."
             />
             <RightFeaturesContentContainer
-                imageUrl="./Images/Verification2.jpg"
+                imageUrl="./Images/verification2.jpg"
                 header = "Result Authentication" 
                 text = "Lorem ipsum dolor sit amet consectetur. Nulla sollicitudin sem sem nisl proin. Ut nec enim donec lectus mi dictum. Donec gravida a ut nulla mi consectetur. Mauris suscipit fringilla ipsum vestibulum augue vel ut. Elit diam nunc nulla turpis mi. Varius lobortis nisl purus lorem ultrices nullam dapibus. Neque leo in neque odio adipiscing adipiscing ac vel ac. Aenean cursus tempor justo ipsum vulputate. Et diam mollis cum est."
             />
