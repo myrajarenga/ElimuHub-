@@ -1,0 +1,13 @@
+.active{
+    font-weight: bold !important;
+}
+
+#root{
+    height: 100vh !important;
+}
+
+/* Making sure that the Nav is white and fixed in position */
+.navContainer{
+    position: fixed !important;
+    z-index: 100;
+}
