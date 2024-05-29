@@ -19,31 +19,26 @@ const FeaturesContainer = () => {
                     the imageURL
                     the header
                     the text
-                    the borderDirection
             */}
             <LeftFeaturesContentContainer
                 imageUrl="./images/E-learning.jpg"
                 header = "E-learning" 
                 text = "Lorem ipsum dolor sit amet consectetur. Nulla sollicitudin sem sem nisl proin. Ut nec enim donec lectus mi dictum. Donec gravida a ut nulla mi consectetur. Mauris suscipit fringilla ipsum vestibulum augue vel ut. Elit diam nunc nulla turpis mi. Varius lobortis nisl purus lorem ultrices nullam dapibus. Neque leo in neque odio adipiscing adipiscing ac vel ac. Aenean cursus tempor justo ipsum vulputate. Et diam mollis cum est."
-                borderDirection="left"
             />
             <RightFeaturesContentContainer
                 imageUrl="./images/notification.png"
                 header = "Remote Announcements" 
                 text = "Lorem ipsum dolor sit amet consectetur. Nulla sollicitudin sem sem nisl proin. Ut nec enim donec lectus mi dictum. Donec gravida a ut nulla mi consectetur. Mauris suscipit fringilla ipsum vestibulum augue vel ut. Elit diam nunc nulla turpis mi. Varius lobortis nisl purus lorem ultrices nullam dapibus. Neque leo in neque odio adipiscing adipiscing ac vel ac. Aenean cursus tempor justo ipsum vulputate. Et diam mollis cum est."
-                borderDirection="right"
             />
              <LeftFeaturesContentContainer
                 imageUrl="./images/Assignments.jpg"
                 header = "Remote Assignments" 
                 text = "Lorem ipsum dolor sit amet consectetur. Nulla sollicitudin sem sem nisl proin. Ut nec enim donec lectus mi dictum. Donec gravida a ut nulla mi consectetur. Mauris suscipit fringilla ipsum vestibulum augue vel ut. Elit diam nunc nulla turpis mi. Varius lobortis nisl purus lorem ultrices nullam dapibus. Neque leo in neque odio adipiscing adipiscing ac vel ac. Aenean cursus tempor justo ipsum vulputate. Et diam mollis cum est."
-                borderDirection="left"
             />
             <RightFeaturesContentContainer
                 imageUrl="./images/Verification2.jpg"
                 header = "Result Authentication" 
                 text = "Lorem ipsum dolor sit amet consectetur. Nulla sollicitudin sem sem nisl proin. Ut nec enim donec lectus mi dictum. Donec gravida a ut nulla mi consectetur. Mauris suscipit fringilla ipsum vestibulum augue vel ut. Elit diam nunc nulla turpis mi. Varius lobortis nisl purus lorem ultrices nullam dapibus. Neque leo in neque odio adipiscing adipiscing ac vel ac. Aenean cursus tempor justo ipsum vulputate. Et diam mollis cum est."
-                borderDirection="right"
             />
         </div>
     );
