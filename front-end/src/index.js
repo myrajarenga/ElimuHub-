@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import App from './Components/App';
 import 'semantic-ui-css/semantic.min.css';
-import './index.css';
+import './CSS/index.css';
+import './CSS/class-customization.css';
+import { RouterProvider } from "react-router-dom";
+import router from './Routes/RoutesConfig';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}>
+      <App />
+    </RouterProvider>
   </React.StrictMode>
 );
 
