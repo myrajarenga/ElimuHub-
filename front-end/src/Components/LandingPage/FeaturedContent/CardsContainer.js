@@ -28,8 +28,8 @@ const CardsContainer = () => {
                     velit integer luctus."
                     userName="Bravin Atonya"
                     likes="1,048"
-                    avatarUrl="/images/user1.jpg"
-                    imageUrl="/images/periodicTable.jpg"
+                    avatarUrl="/Images/user1.jpg"
+                    imageUrl="/Images/periodicTable.jpg"
                 />
             </div>
             <div>
@@ -40,8 +40,8 @@ const CardsContainer = () => {
                     velit integer luctus."
                     userName="Myra Jarenga"
                     likes="1,000"
-                    avatarUrl="/images/user2.jpg"
-                    imageUrl="/images/electricity.jpg"
+                    avatarUrl="/Images/user2.jpg"
+                    imageUrl="/Images/electricity.jpg"
                 />
             </div>
             <div>
@@ -52,8 +52,8 @@ const CardsContainer = () => {
                     velit integer luctus."
                     userName="Laban kibet"
                     likes="1,500"
-                    avatarUrl="/images/user1.jpg"
-                    imageUrl="/images/heart.jpg"
+                    avatarUrl="/Images/user1.jpg"
+                    imageUrl="/Images/heart.jpg"
                 />
             </div>
             <div>
@@ -64,8 +64,8 @@ const CardsContainer = () => {
                     velit integer luctus."
                     userName="Ace Atonya"
                     likes="1,250"
-                    avatarUrl="/images/user2.jpg"
-                    imageUrl="/images/english.jpg"
+                    avatarUrl="/Images/user2.jpg"
+                    imageUrl="/Images/english.jpg"
                 />
             </div>
         </div>
