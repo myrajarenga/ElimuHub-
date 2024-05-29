@@ -1,10 +1,9 @@
-import CommingSoon from "./CommingSoonPage"
+import LandingPage from "./LandingPage/LandingPage";
 
 const App = () => {
     return(
-        <div>
-            <CommingSoon TimeLine="May 29, 2024 00:00:00"/>
-        </div>
+        //Inclusion of the LandingPage Component
+        <LandingPage />
     );
 };
 
