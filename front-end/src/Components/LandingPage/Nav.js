@@ -34,7 +34,8 @@ const Nav = () => {
                     <div className="item">
                         {/* Making sure that the button redirects us to /signUp URL when clicked*/}
                         <Link to="/signUp">
-                            <button className="small ui button primary">
+                            {/* Making sure that the signUp button is in line with our customization */}
+                            <button className="small ui button primary" id="signUpButton">
                                 Sign Up
                             </button>
                         </Link>
@@ -42,7 +43,7 @@ const Nav = () => {
                     <div className="item">
                         {/* Making sure that the button redirects us to /signIn URL when clicked*/}
                         <Link to="/signIn">
-                            <button className="small ui button red">
+                            <button className="small ui button red" id="signInButton">
                                 Sign In
                             </button>
                         </Link>
