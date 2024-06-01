@@ -16,7 +16,7 @@ const FeaturesTextContainer = ({header, text}) => {
                 <div className="mt-[20px]">
                     {/* use of the Link component to navigate to /signUp URL */}
                     <Link to="/signUp">
-                        <button className="ui right labeled icon button red">
+                        <button className="ui right labeled icon button red" id="signUpButton">
                             <i className="right arrow icon"></i>
                             Register Today
                         </button>
