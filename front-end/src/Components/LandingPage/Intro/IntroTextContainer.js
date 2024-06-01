@@ -30,7 +30,7 @@ const IntroTextContainer = () => {
 
                 {/* Link component linked to the button, which makes the button redirect us to /signUp URL when clicked */}
                 <Link to="/signUp">
-                    <button className="ui right labeled icon button primary">
+                    <button className="ui right labeled icon button primary" id="signUpButton">
                         <i className="right arrow icon"></i>
                         Register Today
                     </button>
