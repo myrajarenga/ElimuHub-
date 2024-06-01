@@ -1,12 +1,13 @@
 //This module contains the conguration of the routes
 
 import { createBrowserRouter } from 'react-router-dom';
-import {HomeRoute, SignInRoute, SignUpRoute} from './LandingPageRoutes';
+import {CommingSoonRoute, HomeRoute, SignInRoute, SignUpRoute} from './LandingPageRoutes';
 
 const router = createBrowserRouter([
     HomeRoute,
     SignInRoute,
-    SignUpRoute
+    SignUpRoute,
+    CommingSoonRoute
 ]);
 
 export default router;
