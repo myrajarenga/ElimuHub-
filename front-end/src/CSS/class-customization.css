@@ -11,3 +11,15 @@
     position: fixed !important;
     z-index: 100;
 }
+
+/* Making sure that the Sign In button has our custom colors */
+#signInButton{
+    background-color: #DAFDBA;
+    color: #13678A;
+}
+
+/* Making sure that the sign up button has our custom colors */
+#signUpButton{
+    background-color: #13678A;
+    color: white;
+}
