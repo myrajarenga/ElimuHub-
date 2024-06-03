@@ -2,8 +2,16 @@
     font-weight: bold !important;
 }
 
-#root{
+/* Making sure that the body is full screen size */
+body{
     height: 100vh !important;
+    width: 100% !important;
+}
+
+/* Making sure that the root component that is the parent of all components is full screen */
+#root{
+    height: 100% !important;
+    width: 100% !important;
 }
 
 /* Making sure that the Nav is white and fixed in position */
@@ -22,4 +30,18 @@
 #signUpButton{
     background-color: #13678A;
     color: white;
+}
+
+/* Making sure that the Nav menu component with the hidden-display id are hidden in large screen */
+@media (min-width: 800px) {
+    #hidden-display{
+        display: none;
+    }
+}
+
+/* Making sure that the Nav components with the hidden-options-display id are hidden in the small screen */
+@media (max-width: 800px) {
+    #hidden-options-display{
+        display: none;
+    }
 }
