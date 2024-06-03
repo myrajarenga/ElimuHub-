@@ -9,7 +9,7 @@ import SmallScreenMenu from "./SmallScreenMenu";
 
 const Nav = () => {
     return(
-        <div className="navContainer pt-[8px] bg-white w-full px-[60px]">
+        <div className="navContainer pt-[8px] bg-white w-full pr-[60px]">
             <div class="ui secondary menu">
                 <a className="item" href="/">
                     <span className="font-bold text-[24px]">ElimuHub</span>
