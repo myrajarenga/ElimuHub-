@@ -7,16 +7,15 @@ import IntroTextContainer from "./IntroTextContainer";
 
 const IntroContentContainer = () => {
     return(
-        // Making sure that the component is a grid that has two columns with equal sizes
-        <div className="h-[100%] ui grid">
-            <div className="eight wide column">
-                {/* Inclusion of the text container component */}
-                <IntroTextContainer />
-            </div>
-            <div className="eight wide column">
-                {/* Inclusion of the image container component */}
-                <IntroImageContainer />
-            </div>
+        /*
+            Making sure that the component is a grids and the grid is flexible.
+            1 column in small screen and 2 column from mid screen
+        */
+        <div className="h-[100%] w-[100%] grid grid-cols-1 md:grid-cols-2 md:gap-8">
+            {/* Inclusion of the text container component */}
+            <IntroTextContainer />
+            {/* Inclusion of the image container component */}
+            <IntroImageContainer />
         </div>
     )
 }
