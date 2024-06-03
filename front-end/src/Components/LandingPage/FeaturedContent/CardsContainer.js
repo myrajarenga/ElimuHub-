@@ -7,8 +7,8 @@ import SingleCard from "./SingleCard";
 
 const CardsContainer = () => {
     return(
-        /* Making sure that the grid has 4 columns and a gap between them. */
-        <div className="grid grid-cols-4 gap-8">
+        /* Making sure that the grid has 4 columns and a gap between them in large screens, 2 columns in mid screens and 1 in small screens. */
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {/*
                 Implementation of the single card components.
                 These components require;
