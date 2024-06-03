@@ -11,7 +11,8 @@ import LeftFeaturesContentContainer from "./LeftFeaturesContentContainer";
 const FeaturesContainer = () => {
     return(
         //Making sure that the component's with is equal to the parent element.
-        <div className="w-[100%]">
+        //Making sure that the FeaturesContainer is responsive
+        <div className="w-[100%] mt-[50px] sm:mt-[150px] md:mt-[0px]">
             <h2 className="w-[100%] text-center ui header" id="features">Features</h2>
             {/* 
                 Implementation of the feature content container components
