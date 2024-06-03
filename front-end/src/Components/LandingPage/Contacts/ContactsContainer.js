@@ -9,7 +9,8 @@ const ContactsContainer = () =>{
         <div className="w-[100%] mt-[35px] pb-[16px]">
             <h2 className="w-[100%] text-center ui header" id="contacts">Contacts</h2>
             <div className="mb-[35px]"></div>
-            <div className="grid grid-cols-3 gap-[10em] bg-white px-6 pt-10 pb-3 mt-8 shadow-xl">
+            {/* Working on the responsiveness of the contact section */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-[20%] bg-white px-6 pt-10 pb-3 mt-8 shadow-xl">
                 <NewsLetter />
                 <Socials />
                 <About />
