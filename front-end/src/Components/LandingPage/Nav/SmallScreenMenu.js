@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 
 const SmallScreenMenu = () => (
     //use of the Dropdown component to come up with a dropdown button containing all the menu options
-    <Dropdown text='Menu' className='button' id="signUpButton">
+    //use of the align justify icon to make sure that the menu has an icon related to the menu
+    <Dropdown text='Menu' button floating labeled className='icon' icon="align justify" id="signUpButton">
         <DropdownMenu className='left'>
             <a href="#home">
                 <DropdownItem>
