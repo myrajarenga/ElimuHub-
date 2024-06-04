@@ -41,11 +41,6 @@ const SignUpForm = () => {
                         <input type="password" name="confirmation-password"/>
                     </div>
                 </div>
-                <div className="field">
-                    <Link to="/comming-soon">
-                        <div>Forgot Password?</div>
-                    </Link>
-                </div>
                 <div className="field w-full">
                     <Link to="/comming-soon">
                         <div className="ui button w-full" id="signUpButton">Sign Up</div>
