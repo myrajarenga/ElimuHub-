@@ -9,7 +9,8 @@ import SmallScreenMenu from "./SmallScreenMenu";
 
 const Nav = () => {
     return(
-        <div className="navContainer pt-[8px] bg-white w-full pr-[60px]">
+        /* Making sure that the padding on the right changes to 30px in large screens and 60px in small ones */
+        <div className="navContainer pt-[8px] bg-white w-full pr-[60px] lg:pr-[30px]">
             <div class="ui secondary menu">
                 <a className="item" href="/">
                     <span className="font-bold text-[24px]">ElimuHub</span>
