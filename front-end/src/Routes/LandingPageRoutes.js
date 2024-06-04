@@ -24,5 +24,5 @@ export const SignUpRoute = {
 //Implementation of the comming-soon "/comming-soon" route
 export const CommingSoonRoute = {
     path: '/comming-soon',
-    element: <CommingSoon TimeLine="Jun 5, 2024 00:00:00"/>
+    element: <CommingSoon TimeLine="Jun 10, 2024 00:00:00"/>
 }
