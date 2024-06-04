@@ -33,14 +33,14 @@ body{
 }
 
 /* Making sure that the Nav menu component with the hidden-display id are hidden in large screen */
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     #hidden-display{
         display: none;
     }
 }
 
 /* Making sure that the Nav components with the hidden-options-display id are hidden in the small screen */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     #hidden-options-display{
         display: none;
     }
