@@ -4,8 +4,8 @@ import SignUpForm from "./SignUpForm";
 const SignUpPage = () => {
     return(
 
-        <div className="h-[100vh] w-[100vw] grid grid-cols-1 lg:grid-cols-2">
-            <div className="hidden lg:inline">
+        <div className="h-[100vh] w-[100vw] grid grid-cols-1 md:grid-cols-2">
+            <div className="hidden md:inline">
                 <IntroTextContainer
                     backgroundColor = "bg-[#13678A]"
                     textColor = "text-[#FFFFFF]"
