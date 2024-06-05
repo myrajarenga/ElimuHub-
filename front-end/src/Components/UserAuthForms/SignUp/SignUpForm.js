@@ -9,7 +9,7 @@ import OrDivider from "../Shared/OrDivider";
 const SignUpForm = () => {
     return(
         <div className="h-[100%] flex items-center justify-center">
-            <div className="ui form w-[70%] bg-white px-6 pt-10 pb-8 mt-8 shadow-xl rounded-[8px]">
+            <div className="ui form w-[60%] bg-white px-6 pt-10 pb-8 mt-8 shadow-xl rounded-[8px]">
                 <h2 className="ui header text-center">Sign UP</h2>
                 <div className="field">
                     <label>Email</label>
