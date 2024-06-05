@@ -11,35 +11,17 @@ const SignUpForm = () => {
         <div className="h-[100%] flex items-center justify-center">
             <div className="ui form w-[70%] bg-white px-6 pt-10 pb-8 mt-8 shadow-xl rounded-[8px]">
                 <h2 className="ui header text-center">Sign UP</h2>
-                <div className="fields w-[100%]">
-                    <div className="field w-[50%]">
-                        <label>First Name</label>
-                        <input type="email" name="first-name"/>
-                    </div>
-                    <div className="field w-[50%]">
-                        <label>Last Name</label>
-                        <input type="password" name="last-name"/>
-                    </div>
+                <div className="field">
+                    <label>Email</label>
+                    <input type="email" name="email"/>
                 </div>
-                <div className="fields w-[100%]">
-                    <div className="field w-[50%]">
-                        <label>Email</label>
-                        <input type="email" name="email"/>
-                    </div>
-                    <div className="field w-[50%]">
-                        <label>Phone Number</label>
-                        <input type="password" name="phone-number"/>
-                    </div>
+                <div className="field">
+                    <label>Password</label>
+                    <input type="email" name="password"/>
                 </div>
-                <div className="fields w-[100%]">
-                    <div className="field w-[50%]">
-                        <label>Password</label>
-                        <input type="email" name="password"/>
-                    </div>
-                    <div className="field w-[50%]">
-                        <label>Confirm Password</label>
-                        <input type="password" name="confirmation-password"/>
-                    </div>
+                <div className="field">
+                    <label>Confirm Password</label>
+                    <input type="password" name="confirmation-password"/>
                 </div>
                 <div className="field w-full">
                     <Link to="/comming-soon">
